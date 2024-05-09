@@ -1,0 +1,206 @@
+.a1{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+      position: relative;
+}
+.txa1 h1{
+  color: white;
+  font-size: 3.70vw;
+  font-weight: 400;
+  
+}
+
+.txa1 {
+    margin-top: 5%;
+    margin-right: 1%;
+    position: relative;
+}
+
+.txa1 p {
+  color: white;
+  margin-top: 5%;
+}
+
+.btna1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 3%;
+;
+  position: absolute;
+  bottom: 43%;
+  
+}
+
+.btna1 button{
+  width: 8vw;
+  height: 6vh;
+
+}
+
+
+
+
+
+/* responsive starting */
+
+@media (max-width:1400px){
+
+  .txa1 h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+    
+  }
+  
+  .txa1 {
+      margin-top: 5%;
+      margin-right: 1%;
+      position: relative;
+      margin-right: 4%;
+  }
+  
+  .txa1 p {
+    color: white;
+    margin-top: 5%;
+  }
+  
+  .btna1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 3%;
+  ;
+    position: absolute;
+    bottom: 43%;
+    bottom: 30%;
+    
+  }
+  
+  .btna1 button{
+    width: 10vw;
+    height: 8vh;
+  
+  }
+  
+
+}
+
+
+
+
+/* RESPONSIVE 2 */
+
+  @media (max-width:1200px){
+
+ 
+
+      .txa1 h1{
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+        width: 100%;
+        
+        
+      }
+      
+      .txa1 {
+          margin-top: 5%;
+          margin-right: 1%;
+          position: relative;
+          margin-left: 10%;
+          
+      }
+      
+      .txa1 p {
+        color: white;
+        margin-top: 10%;
+        font-size: 15px;
+        width: 100%;
+      }
+      
+      .btna1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 3%;
+      ;
+        position: absolute;
+        bottom: 43%;
+        bottom: 30%;
+        
+      }
+      
+      .btna1 button{
+        width: 12vw;
+        height: 7vh;
+      
+      }
+
+  }
+
+
+/* THIRD SIZE */
+
+@media (max-width:1000px){
+
+ .a1{
+  display: block;
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 100%; */
+ }
+
+  .txa1 h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+       display: block;
+    padding-top: 3%;
+    text-align: center;
+
+    
+    
+  }
+  
+  .txa1 {
+   
+      position: relative;
+      
+      }
+  
+  .txa1 p {
+    color: white;
+    /* margin-bottom: 30%;  */
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  
+  .btna1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* column-gap: 3%; */
+  ;
+    position: absolute;
+    top: 90%;
+    : 30%;
+    
+  }
+  
+  .btna1 button{
+    width: 30vw;
+    height: 7vh;
+  
+  }
+  .via1{
+    padding-top: 2%;
+  }
+
+}
+
+
+
+
